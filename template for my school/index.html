@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/index.css" />
+    <script defer src="jsCode/index.js"></script>
+    <title>high school</title>
+    <style>
+      /* Start Global Rules */
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Cairo", sans-serif;
+        background-color: white;
+      }
+      ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /* Small */
+      @media (min-width: 768px) {
+        .container {
+          width: 750px;
+        }
+      }
+      /* Medium */
+      @media (min-width: 992px) {
+        .container {
+          width: 970px;
+        }
+      }
+      /* Large */
+      @media (min-width: 1200px) {
+        .container {
+          width: 1170px;
+        }
+      }
+      /* End Global Rules */
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#" class="logo">high schools</a>
+        <ul class="nav">
+          <li><a href="#article">article</a></li>
+          <li><a href="#gallery">gallery</a></li>
+          <li><a href="#features">features</a></li>
+          <li>
+            <a href="#" id="control">other links</a>
+            <!-- menu -->
+            <div class="menu">
+              <img src="images/th.jpg" alt="" />
+              <ul class="links">
+                <li>
+                  <a href="#testimonials"
+                    ><i class="far fa-comments fa-fw"></i> Testimonials</a
+                  >
+                </li>
+                <li>
+                  <a href="#team"
+                    ><i class="far fa-user fa-fw"></i> Team Members</a
+                  >
+                </li>
+                <li>
+                  <a href="#services"
+                    ><i class="far fa-building fa-fw"></i> Services</a
+                  >
+                </li>
+                <li>
+                  <a href="#our-skills"
+                    ><i class="far fa-check-circle fa-fw"></i> Our Skills</a
+                  >
+                </li>
+                <li>
+                  <a href="#work-steps"
+                    ><i class="far fa-clipboard fa-fw"></i> How It Works</a
+                  >
+                </li>
+              </ul>
+              <ul class="links">
+                <li>
+                  <a href="#events"
+                    ><i class="far fa-calendar-alt fa-fw"></i> Events</a
+                  >
+                </li>
+                <li>
+                  <a href="#pricing"
+                    ><i class="fas fa-server fa-fw"></i> Pricing Plans</a
+                  >
+                </li>
+                <li>
+                  <a href="#video"
+                    ><i class="far fa-play-circle fa-fw"></i> Top Videos</a
+                  >
+                </li>
+                <li>
+                  <a href="#stats"
+                    ><i class="far fa-chart-bar fa-fw"></i> Stats</a
+                  >
+                </li>
+                <li>
+                  <a href="#discount"
+                    ><i class="fas fa-percent fa-fw"></i> Request A Discount</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- menu -->
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- START LANDING -->
+    <div class="landing">
+      <div class="container">
+        <article class="text">
+          <h1>welcome to schools</h1>
+          <p>
+            We try to prepare the secondary student to gain real and useful
+            experiences beside studying, and we try to help him manage the high
+            school period so that he can come out of it with a good gain in
+            basic skills and abilities, and we try to make social media serve
+            him, not the other way around
+          </p>
+        </article>
+        <div class="image">
+          <img
+            src="images/William-Shakespeare-Quote.jpg"
+            alt=""
+            srcset=""
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <a href="#articles" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+      </a>
+    </div>
+    <!-- END LANDING -->
+  </body>
+</html>

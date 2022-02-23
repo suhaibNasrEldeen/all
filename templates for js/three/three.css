@@ -1,0 +1,54 @@
+.container {
+  text-align: center;
+  margin-top: 39px;
+}
+.container .form {
+  background-color: #eee;
+  display: inline;
+  padding: 24px;
+}
+.container .form #text {
+  border: navajowhite;
+  background-color: white;
+  padding: 2px;
+  margin-top: 31px;
+  font-size: 24px;
+}
+.container .form #sub {
+  text-align: center;
+  height: 66px;
+  margin-right: -20px;
+  background-color: red;
+  border: navajowhite;
+  cursor: pointer;
+}
+.container .taskes {
+  min-height: 100px;
+  margin-top: 46px;
+  background: #eee;
+  padding: 20px;
+  cursor: pointer;
+}
+.task {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  overflow: overlay;
+  padding-bottom: 15px;
+  position: relative;
+}
+.task .span {
+  background-color: red;
+  padding: 7px;
+  margin: 50;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* width: fit-content; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px;
+}
+.done {
+  opacity: 0.8;
+}

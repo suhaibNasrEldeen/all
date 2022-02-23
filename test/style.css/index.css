@@ -1,0 +1,45 @@
+.portof {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.portof .container-imags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portof .container-imags .box {
+  width: 25%;
+  overflow: hidden;
+  position: relative;
+}
+.portof .container-imags .box img {
+  max-width: 100%;
+  transition: 2s;
+}
+.portof .container-imags .box .caption {
+  position: absolute;
+  transition: 0.2s;
+}
+.portof .container-imags .box:hover .caption {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  bottom: 0%;
+}
+.portof .container-imags .box:hover img {
+  transform: rotate(4deg) scale(1.1);
+}
+@media (max-width: 990px) {
+  .portof .container-imags .box {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+}
+@media (max-width: 770px) {
+  .portof .container-imags .box {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+}
